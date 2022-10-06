@@ -1,0 +1,48 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "governor",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "zkSyncAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "contractAddr",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "tipAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint64",
+        "name": "ergsLimit",
+        "type": "uint64"
+      }
+    ],
+    "name": "testTransfer",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]
