@@ -5,9 +5,9 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const GOVERNANCE_ABI = require('./governance.json');
-const GOVERNANCE_ADDRESS = '0xf45DaC8c4c6c228726931457CBb0d6C26649FB2C';
+const GOVERNANCE_ADDRESS = '0x88C0FB044d42aF9Cf14fc5B227101e71c498C84D';
 const COUNTER_ABI = require('./counter.json');
-const COUNTER_ADDRESS = '0x45AF82B80F8CAC5E9430e4dD7D6854Fc177634a6';
+const COUNTER_ADDRESS = '0xcf15d6cD67C704532eE5Ef03e32Af96E97B02Bd1';
 
 async function main() {
     // Ethereum L1 provider

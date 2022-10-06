@@ -7,7 +7,7 @@ contract Governance {
   address public governor;
 
   constructor() {
-      governor = msg.sender;
+    governor = msg.sender;
   }
 
   function testTransfer(
@@ -22,7 +22,7 @@ contract Governance {
       zkSyncAddress, 
       contractAddr, 
       msg.value,
-      msg.value - tipAmount,
+      tipAmount,
       abi.encodeWithSignature(
         "increment()"
       ),

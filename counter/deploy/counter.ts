@@ -6,7 +6,7 @@ import * as dotenv from "dotenv";
 
 dotenv.config();
 
-const GOVERNANCE_ADDRESS = '0xf45DaC8c4c6c228726931457CBb0d6C26649FB2C';
+const GOVERNANCE_ADDRESS = '0x88C0FB044d42aF9Cf14fc5B227101e71c498C84D';
 
 // An example of a deploy script that will deploy and call a simple contract.
 export default async function (hre: HardhatRuntimeEnvironment) {
